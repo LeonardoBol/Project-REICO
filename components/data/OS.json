@@ -3,13 +3,17 @@
         {
             "name" : "Alan Brito Delgado",
             "id": "1",
+
             "date": "2019-09-29",
+
             "value": 1000000
         },
         {
             "name" : "Benjala Melami",
             "id": "2",
+
             "date": "2020-01-10",
+          
             "value": 2000000
         },
         {

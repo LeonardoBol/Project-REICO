@@ -1,4 +1,5 @@
 import { Input, AutoComplete,Button } from 'antd';
+
 import ListTable from '../ordenesServicio/table';
 import OS from '../data/OS.json';
 import Epp from './verOrden'
@@ -30,6 +31,7 @@ const TableForm = () => {
              })
          };
 
+
     return (
         <>
             <div className="TableForm">
@@ -44,6 +46,7 @@ const TableForm = () => {
                         options={ref}
                     />
                     <AutoComplete
+
                         style={{ width: '31%', margin: '0 2% 2% 0' }}
                         placeholder="Cliente"
                         options={client}
@@ -57,7 +60,6 @@ const TableForm = () => {
             </div>
 
             </>
-        
     )
 }
 

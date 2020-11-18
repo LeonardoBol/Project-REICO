@@ -1,3 +1,4 @@
+
 import { Alert, Button, Table, Modal } from 'antd';
 import OS from '../data/OS.json'
 import dateFilter from './filters/dateFilter'
@@ -120,6 +121,7 @@ class listTable extends Component {
             <div>
             <Table columns={this.state.columns}
                 dataSource={this.state.ordenes}
+          
                 showHeader={true}
                 
                 scroll={{
@@ -128,6 +130,7 @@ class listTable extends Component {
                 size="large"
                 pagination={true}
             />
+
             </div>
             <Modal
                 title="Orden de servicio"
